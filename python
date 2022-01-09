@@ -1,0 +1,10 @@
+weight = int(input("Weight: "))
+
+unit = input("(K)g or (L)bs: ")
+
+if unit == "K" or unit == "k":
+    print(weight * 2.205)
+elif unit == "L" or unit == "l":
+    print(weight / 2.205)
+else:
+    print("I didn't recognize that. Please type 'K' for kilograms and 'L' for pounds.")
